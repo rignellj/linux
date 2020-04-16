@@ -39,4 +39,11 @@ scp -rP <portnumber> ~/ft_ls/ username@***.***.***.***:~/ -> to copy your files/
 ```
 
 ## 5
-Connect VSCode
+Connect VSCode via SSH-key
+
+```
+ssh username@***.***.***.*** -p <portnumber>
+```
+
+
+# Voilà
