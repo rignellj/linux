@@ -24,7 +24,7 @@ Install commands: make, gcc, ssh
 
 ```
 sudo apt-get install ssh
-systemctl restart ssh
+sudo /etc/init.d/ssh restart
 sudo apt-get install gcc
 sudo apt-get install make
 ```
@@ -34,4 +34,9 @@ Create SSH-key for host user:
 
 ```
 ssh-keygen -t rsa
+scp -P <portnumber> .ssh/id_rsa.pub username@***.***.***.***:~/.ssh/authorized_keys2 -> to copy the public key file to your remote computer.
+scp -rP <portnumber> ~/ft_ls/ username@***.***.***.***:~/ -> to copy your files/directories into your virtual machine
+```
 
+## 5
+Connect VSCode
