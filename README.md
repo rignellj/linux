@@ -8,7 +8,7 @@ su root
 apt install sudo
 sudo apt update
 sudo apt upgrade
-
+'''
 ## 2
 Setting up nonroot user:
 
