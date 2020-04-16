@@ -16,5 +16,22 @@ Setting up nonroot user:
 
 ```
 sudo adduser <login> -> asks information about user
-sudo adduser <login> sudo ->give sudo access
+sudo adduser <login> sudo -> give sudo privilages
+```
+
+## 3
+Install commands: make, gcc, ssh
+
+```
+sudo apt-get install ssh
+systemctl restart ssh
+sudo apt-get install gcc
+sudo apt-get install make
+```
+
+## 4
+Create SSH-key for host user:
+
+```
+ssh-keygen -t rsa
 
