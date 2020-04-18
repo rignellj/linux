@@ -14,10 +14,10 @@ sudo apt upgrade
 ## 2
 Setting up nonroot user:
 
-```
-`sudo adduser <login>` -> asks information about user
+
+`sudo adduser <login>` -> asks information about user\n
 `sudo adduser <login> sudo` -> give sudo privilages to <login>
-```
+
 
 ## 3
 Install commands: make, gcc, ssh
