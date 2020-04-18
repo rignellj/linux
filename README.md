@@ -15,10 +15,8 @@ sudo apt upgrade
 Setting up nonroot user:
 
 
-`sudo adduser <login>` 
--> asks information about user
-`sudo adduser <login> sudo`
--> give sudo privilages to <login>
+- `sudo adduser <login>` -> asks information about user
+- `sudo adduser <login> sudo` -> give sudo privilages to <login>
 
 
 ## 3
