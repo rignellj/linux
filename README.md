@@ -35,7 +35,7 @@ Create SSH-key for host user:
 
 - `ssh-keygen -t rsa`
 - `scp -P <portnumber> .ssh/id_rsa.pub username@***.***.***.***:~/.ssh/authorized_keys2` -> to copy the public key file to your remote computer.
-- `scp -rP <portnumber> ~/ft_ls/ username@***.***.***.***:~/` -> to copy your files/directories into your virtual machine
+- `scp -rP <portnumber> ~/ft_ls/ username@***.***.***.***:~/` -> to copy your files/directories (recursively) into your virtual machine
 
 ## 5
 Install Valgrind in your Linux machine
